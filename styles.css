@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Sacramento';
+}
+
+h2 {
+    font-family: 'permanent marker';
+}
+
+h3 {
+    font-family: 'Montserrat';
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+
+}
+
+.bottom-container {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+}
