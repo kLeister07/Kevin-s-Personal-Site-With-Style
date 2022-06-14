@@ -16,26 +16,48 @@ h2 {
 h3 {
     font-family: 'Montserrat';
 }
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
+.top-fixed {
+    background-color: transparent;
+    position: fixed;
+    right: 0px;
+    z-index: 2;
+    height: 200px;
+    max-width: 200px;
+}
 .top-container {
     background-color: #e4f9f5;
-    padding-top: 100px;
+    padding-top: 110px;
     position: relative;
 }
 
 .middle-container {
-    background-color: ;
-    width: 200px;
-    height: 200px;
-
+  padding: 70px 50px;
+  background-color: #e4f9f5;
+  position: relative;
 }
-
+.flex-container {
+    display: inline-block;
+    flex-wrap: nowrap;
+   
+}
+.flex-container > img {
+    width: 20%;
+    height: auto;
+    object-fit: contain;
+  }
+.skill-icon {
+    width: 30%;
+}
 .bottom-container {
-    background-color: ;
-    width: 200px;
-    height: 200px;
+    padding: 10px 50px;
+  background-color: #e4f9f5;
 
-}
+} 
+
 
 .top-cloud {
     position: absolute;
@@ -47,4 +69,29 @@ h3 {
 .bottom-cloud {
     position: absolute;
     bottom: 300px;
+}
+img.spidey {
+max-width: 100%;;
+max-height: 100%;
+object-fit: contain;
+
+
+}
+img.giphy-steph {
+    max-width: 100%;;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+img.giphy-spiderman-heart3 {
+    max-width: 50%;
+    max-height: auto;
+    object-fit: contain;
+}
+
+img.giphy-pug2 {
+
+    max-width: 100%;;
+max-height: 100%;
+object-fit: contain;
 }
