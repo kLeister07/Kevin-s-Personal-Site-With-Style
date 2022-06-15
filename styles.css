@@ -2,7 +2,6 @@
     -top container text size and cloud positioning when resizing browser
     -general spacing within the entire page
     -add icons for developing skills
-    -contact me and other links
  */
 
 body {
@@ -12,7 +11,7 @@ body {
 }
 
 .kevin {
-    color: black;
+    color: #66bfbf;
     font-size: 120px;
     position: absolute;
     top: 40px;
@@ -39,6 +38,8 @@ h2 {
 
 h3 {
     font-family: 'Montserrat';
+    font-size: 30px;
+    color: #66bfbf;
 }
 
 p {
@@ -46,6 +47,17 @@ p {
     width: 30%;
     margin: auto;
     padding: 3%;
+    font-size: 20px;
+}
+a {
+    color: #e4f9f5;
+    font-family: 'permanent marker';
+    margin: 10px 20px;
+    font-size: 25px;
+ 
+}
+a:hover{
+    color:black;
 }
 
 .top-fixed {
@@ -77,8 +89,16 @@ p {
     padding-top: 70px;
     background-color: #e4f9f5;
     position: relative;
-
+padding-bottom: 4%;
 }
+.bottom-container {
+    background-color: #66bfbf;
+  padding-top: 2%;
+  background-image: linear-gradient(to bottom, #66bfbf, #e8fffe);
+}
+
+
+
 
 .flex-container {
     display: inline-block;
@@ -102,9 +122,7 @@ p {
     width: 30%;
 }
 
-.bottom-container {
-    background-color: #e4f9f5;
-}
+
 
 hr {
     border: dotted blue 6px;
@@ -184,3 +202,37 @@ img.middle-icons {
 img.pikachu {
     width: 20%;
 }
+
+
+
+  .btn {
+      background: #001aff;
+      background-image: -webkit-linear-gradient(top, #001aff, #f5fffd);
+      background-image: -moz-linear-gradient(top, #001aff, #f5fffd);
+      background-image: -ms-linear-gradient(top, #001aff, #f5fffd);
+      background-image: -o-linear-gradient(top, #001aff, #f5fffd);
+      background-image: linear-gradient(to bottom, #001aff, #f5fffd);
+      -webkit-border-radius: 8;
+      -moz-border-radius: 8;
+      border-radius: 8px;
+      font-family: 'permanent marker';
+      color: #000000;
+      font-size: 20px;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+    }
+    
+    .btn:hover {
+        text-decoration: none;
+        background: #fa0000;
+        background-image: -webkit-linear-gradient(top, #fa0000, #faf0f0);
+        background-image: -moz-linear-gradient(top, #fa0000, #faf0f0);
+        background-image: -ms-linear-gradient(top, #fa0000, #faf0f0);
+        background-image: -o-linear-gradient(top, #fa0000, #faf0f0);
+        background-image: linear-gradient(to bottom, #fa0000, #faf0f0);
+    }
+    
+    .copyright {
+        color: #e4f9f5;
+        font-size: 0.80rem;
+    }
