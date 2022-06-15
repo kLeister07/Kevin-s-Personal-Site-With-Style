@@ -1,23 +1,51 @@
+/* Style changes that need to be made:
+    -top container text size and cloud positioning when resizing browser
+    -general spacing within the entire page
+    -add icons for developing skills
+    -contact me and other links
+ */
+
 body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
 }
 
+.kevin {
+    color: black;
+    font-size: 120px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.headings {
+    font-size: 35px;
+}
+
 h1 {
+    color: blue;
     margin-top: 0;
-    font-family: 'Sacramento';
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
 }
 
 h2 {
+    color: red;
     font-family: 'permanent marker';
 }
 
 h3 {
     font-family: 'Montserrat';
 }
+
 p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 30%;
+    margin: auto;
+    padding: 3%;
 }
 
 .top-fixed {
@@ -25,74 +53,103 @@ p {
     position: fixed;
     right: 0px;
     z-index: 2;
-    height: 200px;
-    max-width: 200px;
+    width: 10%;
 }
+
 .bottom-fixed {
     background-color: transparent;
     position: fixed;
     left: 0px;
     bottom: 0px;
     z-index: 2;
-    height: 170px;
-    max-width: 200px;
+    width: 20%;
 }
+
 .top-container {
     background-color: #e4f9f5;
     padding-top: 180px;
+    padding-bottom: 20px;
     position: relative;
+    width: 100%;
 }
 
 .middle-container {
-  padding: 70px 50px;
-  background-color: #e4f9f5;
-  position: relative;
+    padding-top: 70px;
+    background-color: #e4f9f5;
+    position: relative;
+
 }
+
 .flex-container {
     display: inline-block;
     flex-wrap: nowrap;
-   
+
 }
-.flex-container > img {
+
+.flex-container>img {
     width: 20%;
     height: auto;
     object-fit: contain;
-  }
-  .flex-container > img.giphy-steph{
+}
+
+.flex-container>img.giphy-steph {
     width: 200px;
     height: auto;
     object-fit: contain;
-  }
+}
+
 .skill-icon {
     width: 30%;
 }
+
 .bottom-container {
-    padding: 10px 50px;
-  background-color: #e4f9f5;
+    background-color: #e4f9f5;
+}
 
-} 
+hr {
+    border: dotted blue 6px;
+    border-bottom: none;
+    width: 40%;
+}
 
+
+img.mountain {
+    position: relative;
+    width: 70%;
+    bottom: 120px
+}
 
 .top-cloud {
     position: absolute;
-    right: 300px;
+    right: 250px;
     top: 50px;
-
+    width: 10%;
 }
 
 .bottom-cloud {
     position: absolute;
-    bottom: 300px;
+    bottom: 600px;
+    width: 10%;
 }
+
+li {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    line-height: 1.6;
+}
+
 img.spidey {
-max-width: 100%;;
-max-height: 100%;
-object-fit: contain;
-
-
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
+
+
+
 img.giphy-steph {
-    max-width: 100%;;
+    max-width: 100%;
+    ;
     max-height: 100%;
     object-fit: contain;
 }
@@ -105,21 +162,25 @@ img.giphy-spiderman-heart3 {
 
 img.giphy-pug2 {
 
-    max-width: 100%;;
-max-height: 100%;
-object-fit: contain;
-}
-img.drift {
-    max-width: 100%;;
+    max-width: 100%;
+    ;
     max-height: 100%;
     object-fit: contain;
 }
-li {
-    max-width: 550px;
-    margin: 0 auto 50px auto;
-    text-align: center;
-    line-height: 1.6;
+
+img.drift {
+    width: 100%;
+    object-fit: contain;
 }
+
+
 img.profile-pic {
     max-width: 175px;
+}
+
+img.middle-icons {
+    width: 35%;
+}
+img.pikachu {
+    width: 20%;
 }
